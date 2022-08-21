@@ -1,4 +1,4 @@
 import requests
-indeed_result = requests.get("https://kr.indeed.com/jobs?q=python&vjk=22cfba9a17148053")
+indeed_result = requests.get("https://m.naver.com")
 
-print(indeed_result)
+print(indeed_result.text)
